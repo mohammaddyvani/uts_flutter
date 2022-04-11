@@ -12,13 +12,13 @@ class SideBar extends StatelessWidget {
               icon: Icons.move_to_inbox,
               text: 'Inbox',
               onTap: () {
-                Navigator.pushNamed(context, '');
+                Navigator.pushNamed(context, '/');
               }),
           _drawerItem(
               icon: Icons.outbox,
               text: 'Outbox',
               onTap: () {
-                Navigator.pushNamed(context, '');
+                Navigator.pushNamed(context, '/Outbox');
               }),
           _drawerItem(
               icon: Icons.person,
