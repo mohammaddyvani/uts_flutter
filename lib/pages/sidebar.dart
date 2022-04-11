@@ -48,13 +48,13 @@ Widget _drawerHeader() {
   return UserAccountsDrawerHeader(
       decoration: BoxDecoration(
         image: DecorationImage(
-          image: AssetImage('assets/images/profil.jpg'),
+          image: NetworkImage('https://1.bp.blogspot.com/-21Igd0YXjx4/XeOXhbJqa0I/AAAAAAAAFPQ/SaF-JEXxvJsZtqsMnnl5dPp469Ybs2F9gCLcBGAsYHQ/s1600/background%2Bcoklat3.jpg'),
           fit: BoxFit.cover,
         ),
       ),
       currentAccountPicture: ClipOval(
         child: Image(
-          image: AssetImage('assets/images/*'),
+          image: AssetImage('assets/images/profil.jpg'),
           height: 20.0,
           width: 20.0,
           fit: BoxFit.cover,
