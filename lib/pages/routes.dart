@@ -1,11 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:uts/pages/inbox_page.dart';
+import 'package:uts/pages/outbox_page.dart';
 
 class RouteGenerate {
   static Route<dynamic> generateRoute(RouteSettings settings) {
     switch (settings.name) {
       case '/':
         return MaterialPageRoute(builder: (_) => InboxPage());
+      case '/outbox':
+        return MaterialPageRoute(builder: (_) => OutboxPage());
       default:
         return _errorRoute();
     }
