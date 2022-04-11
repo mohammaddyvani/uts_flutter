@@ -46,23 +46,14 @@ class InboxPage extends StatelessWidget {
             children: [
               const Text('Today', style: TextStyle(color: Colors.black)),
               const SizedBox(height: 5.0),
-              ListView.builder(
-                  itemCount: input.length,
-                  itemBuilder: (context, index) {
-                    return Column(
-                      children: [
-                        Pesan(nama: input[index][0][0], pesan1: input[index][1][0], pesan2: input[index][0][1]),
-                      ],
-                    );
-                  }),
-              // Pesan(nama: "Andi", pesan1: "Hallo Semua!!", pesan2: "Selamat siang, saya aad..."),
-              // Pesan(nama: "Andi", pesan1: "Hallo Semua!!", pesan2: "Selamat siang, saya aad..."),
-              // Pesan(nama: "Andi", pesan1: "Hallo Semua!!", pesan2: "Selamat siang, saya aad..."),
-              // Pesan(nama: "Andi", pesan1: "Hallo Semua!!", pesan2: "Selamat siang, saya aad..."),
-              // Pesan(nama: "Andi", pesan1: "Hallo Semua!!", pesan2: "Selamat siang, saya aad..."),
-              // Pesan(nama: "Andi", pesan1: "Hallo Semua!!", pesan2: "Selamat siang, saya aad..."),
-              // Pesan(nama: "Andi", pesan1: "Hallo Semua!!", pesan2: "Selamat siang, saya aad..."),
-              // Pesan(nama: "Andi", pesan1: "Hallo Semua!!", pesan2: "Selamat siang, saya aad..."),
+              Pesan(nama: "Andi", pesan1: "Hallo Semua!!", pesan2: "Selamat siang, saya aad..."),
+              Pesan(nama: "Andi", pesan1: "Hallo Semua!!", pesan2: "Selamat siang, saya aad..."),
+              Pesan(nama: "Andi", pesan1: "Hallo Semua!!", pesan2: "Selamat siang, saya aad..."),
+              Pesan(nama: "Andi", pesan1: "Hallo Semua!!", pesan2: "Selamat siang, saya aad..."),
+              Pesan(nama: "Andi", pesan1: "Hallo Semua!!", pesan2: "Selamat siang, saya aad..."),
+              Pesan(nama: "Andi", pesan1: "Hallo Semua!!", pesan2: "Selamat siang, saya aad..."),
+              Pesan(nama: "Andi", pesan1: "Hallo Semua!!", pesan2: "Selamat siang, saya aad..."),
+              Pesan(nama: "Andi", pesan1: "Hallo Semua!!", pesan2: "Selamat siang, saya aad..."),
             ],
           ),
         ),
