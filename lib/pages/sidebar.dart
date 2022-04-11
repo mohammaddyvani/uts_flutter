@@ -19,7 +19,7 @@ class SideBar extends StatelessWidget {
               icon: Icons.outbox,
               text: 'Outbox',
               onTap: () {
-                Navigator.pushNamed(context, '/Outbox');
+                Navigator.pushNamed(context, '/outbox');
               }),
           _drawerItem(
               icon: Icons.person,
